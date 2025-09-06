@@ -1,0 +1,13 @@
+1. Set up
+2. files- aap.py - web ui flask, detection.py- detecting face, main.py- main code, utils,py-
+3. Requirements - 
+wheel
+Flask - python framework for web application
+opencv-python - image recognation processing
+numpy - numerical calculation
+pandas - data handling
+scikit-learn - build ml models
+
+Train model: python src/main.py train
+Predict on single image: python src/main.py predict Dataset/Isha/1.jpg
+Realtime webcam recognition: python src/main.py realtime
